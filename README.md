@@ -35,3 +35,25 @@ Desarrollo de un sistema de gestión integral diseñado para una empresa que bri
       - Estado: Se muestran el total con los ids de los servicios realizados por estado
       - Municipio: Se solicita el nombre del estado y se muestran el total de servicios realizados con sus ids por cada municipio de ese estado
       - Colonia: Se solicita el nombre del estado y municipo, se muestran el total de servicios realizados con sus ids por cada colonia de ese municipio
+
+
+## Explicación de la Estructura:
+* main.py: Es el archivo principal de tu programa.
+
+* clases/: Directorio que contiene las definiciones de tus clases.
+  - persona_class.py: Define la clase abstracta Persona con atributos comunes como nombre, dirección, teléfono, y correo.
+  - cliente_class.py: Define la clase Cliente, que hereda de Persona, con atributos específicos como id_cliente, servicios (lista de servicios solicitados), y fecha_registro.
+  - empleado_class.py: Define la clase Empleado, que hereda de Persona, con atributos como id_empleado,  fecha_ingreso, y historial_servicios.
+  - servicios_class.py: Define la clase Servicio con atributos relacionados con los servicios.
+  - inventario_class.py: Define la clase Inventario con atributos relacionados con el inventario de productos.
+
+* menú/: Directorio que contiene scripts para manejar diferentes menús y operaciones específicas.
+  - servicios.py: Funcionalidades relacionadas con los servicios.
+  - empleados.py: Funcionalidades relacionadas con los empleados.
+  - clientes.py: Funcionalidades relacionadas con los clientes.
+  - inventario.py: Funcionalidades relacionadas con el inventario.
+  - analisis.py: Funcionalidades relacionadas con las consultas de datos.
+
+* database.py: Script para manejar la conexión y operaciones con la base de datos (MongoDB).
+
+* utils.py: Funciones de utilidad como limpiar la pantalla y la generacion de ids no repetidos.
