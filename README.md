@@ -15,23 +15,23 @@ Desarrollo de un sistema de gestión integral diseñado para una empresa que bri
    * Elimiar servicio: Se solicita el id del servicio a eliminar, este tambien desaparecera del historial de servicios de tanto clientes como empleados
 
 2.- Empleados
-  * Consultar todos los empleados: Muestra todos los empleados registrados en la bd
-  * Eliminar un empleado: Se solicita el id del empleado a eliminar (Se valida si existe ese id)
-  * Registrar un nuevo tecnico: El programa pedira ingresar sus datos
-  * Registrar un nuevo ayudante general: El programa pedira ingresar sus datos
+   * Consultar todos los empleados: Muestra todos los empleados registrados en la bd
+   * Eliminar un empleado: Se solicita el id del empleado a eliminar (Se valida si existe ese id)
+   * Registrar un nuevo tecnico: El programa pedira ingresar sus datos
+   * Registrar un nuevo ayudante general: El programa pedira ingresar sus datos
 
 3.- Clientes
-  * Consultar todos los clientes: Muestra todos los clientes registrados en la bd
-  * Eliminar un cliente: Se solicita el id del cliente a eliminar (Se valida si existe ese id)
-  * Registrar un nuevo cliente: El programa pedira ingresar sus datos
+   * Consultar todos los clientes: Muestra todos los clientes registrados en la bd
+   * Eliminar un cliente: Se solicita el id del cliente a eliminar (Se valida si existe ese id)
+   * Registrar un nuevo cliente: El programa pedira ingresar sus datos
 
 4.- Inventario
-  * Pendiente
+   * Pendiente
 
 5.- Consultas
-  * Servicios por cliente: Muestrar todos los servicios solicitas por cada cliente
-  * Servicios Totales por cliente: Calcula el costo total de todos los servicios solicitas por cada cliente
-  * Servicios por region: Muestra los serivicios realizados por region deseada:
+   * Servicios por cliente: Muestrar todos los servicios solicitas por cada cliente
+   * Servicios Totales por cliente: Calcula el costo total de todos los servicios solicitas por cada cliente
+   * Servicios por region: Muestra los serivicios realizados por region deseada:
       - Estado: Se muestran el total con los ids de los servicios realizados por estado
       - Municipio: Se solicita el nombre del estado y se muestran el total de servicios realizados con sus ids por cada municipio de ese estado
       - Colonia: Se solicita el nombre del estado y municipo, se muestran el total de servicios realizados con sus ids por cada colonia de ese municipio
